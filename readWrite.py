@@ -63,9 +63,13 @@ def main():
     questions = readFile('training_texts/Training text.txt')
     answers = readFile('training_texts/answers_training.txt')
 
+    data = {
+        "intents" : refine_read_file_data(questions,answers,'\n')
+    }
+
     # write to json file extracted data
     with open("bom_deus.json", "w") as f:
-        json.dump(refine_read_file_data(questions,answers,'\n'), f, indent=4)
+        json.dump(data, f, indent=4)
 
 
 #Using the special variable
