@@ -498,6 +498,19 @@
                 "Our solar energy solutions have powered both homes and businesses, catering to various energy requirements. For more info, view our projects page.",
                 "We have a track record of successful solar energy projects for both residential and commercial clients. For more info, view our projects page."
             ]
+        },
+        {
+            "tag": "question",
+            "patterns": [
+                "What's the process for placing an order for the product/service?",
+                "Could you guide me through the steps to book the product/service?",
+                "I'm interested in purchasing the product/service. How do I go about placing an order or booking?"
+            ],
+            "responses": [
+                "For order placement or booking, head over to our services page, explore the options available, locate the service you wish to avail, and then click on the provided link. This link will guide you through the entire process smoothly.",
+                "To initiate an order or book a service, navigate to our services page, peruse the offerings, identify your preferred service, and use the provided link. It will lead you through the complete process hassle-free.",
+                "If you wish to place an order or schedule a booking, simply access our services page, browse the selection, find the service you desire, and utilize the given link. Following this link will walk you through the entire process seamlessly."
+            ]
         }
     ]
 }
