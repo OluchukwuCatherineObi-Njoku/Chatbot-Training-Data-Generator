@@ -1,4 +1,4 @@
-# Create_Intents_File
+# Chatbot Training Data Generator
 # README
 
 ## Overview
