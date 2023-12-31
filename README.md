@@ -1,4 +1,4 @@
-# Chatbot Training Data Generator
+# Chatbot Training Data Formatter
 # README
 
 ## Overview
