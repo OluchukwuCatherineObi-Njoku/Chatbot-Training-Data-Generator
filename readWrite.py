@@ -1,11 +1,15 @@
+# Import deque from collections module
 from collections import deque
+# Import json module
 import json
 
+# Read file function
 def readFile(file):
     with open(file, "r") as f:
         lines = f.readlines()
         return lines
 
+# Write file function
 def create_an_intent(questions, answers, file_delimiter):
     intent = {
       "tag": "question",
@@ -48,7 +52,7 @@ def create_an_intent(questions, answers, file_delimiter):
     return intent
 
 
-
+# Refine data function
 def refine_read_file_data(train_Qs, train_As, file_delimiter):
     questions = deque(train_Qs)
     answers = deque(train_As)
@@ -58,7 +62,7 @@ def refine_read_file_data(train_Qs, train_As, file_delimiter):
     return intents
         
 
-
+# Main function
 def main():
     questions = readFile('training_texts/Training text.txt')
     answers = readFile('training_texts/answers_training.txt')
