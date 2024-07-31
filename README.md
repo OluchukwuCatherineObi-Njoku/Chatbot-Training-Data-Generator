@@ -4,11 +4,6 @@
 ## Overview
 This Python script is designed to generate an `intents.json` file for training a chatbot. The script reads questions and answers from two separate text files, groups them into intents, and writes the intents to a JSON file. Each intent consists of a list of patterns (questions) and a list of responses (answers). The chatbot can use this file to learn conversation patterns, understand how certain questions might be phrased, and learn possible ways to answer them.
 
-### Chatbot trained with resulting data
-https://mediafiles.botpress.cloud/a65bb32e-7d9c-40c0-8615-6fb2aa1b6489/webchat/bot.html - In Progress
-
-Please, be a bit patient with it
-
 ## How to Use
 1. Prepare two text files: one containing the questions and the other containing the answers. Each question and answer should be on a separate line. The questions and answers should be in the same order in both files.
 
